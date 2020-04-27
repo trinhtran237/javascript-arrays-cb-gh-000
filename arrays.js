@@ -18,6 +18,6 @@ function removeElementFromBeginningOfArray(arr){
    return arr.slide(1);
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(){
-  return arrCopy.shift();
+function destructivelyRemoveElementFromBeginningOfArray(arr){
+  return arr.shift();
 }
